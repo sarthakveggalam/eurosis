@@ -1,0 +1,59 @@
+.header{
+  /* height: 80vh; */
+  /* background-image: url('./assets/images/home-bg.png');
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+
+  /* border: 1px solid blue; */
+  position: relative;
+}
+
+nav{
+  z-index: 1;
+  height: 15vh;
+}
+
+.home-head{
+  font-family: 'Raleway',sans-serif;
+  font-size: 56px;
+  line-height: 80px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.home-subtext{
+  font-family: 'Raleway',sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #fff;
+}
+.bg-home{
+  background-image: url('./assets/images/home-bg.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height:100vh;
+  /* border: 1px solid red; */
+  z-index: 0;
+
+}
+
+.about-project{
+  height: 100vh;
+}
+
+.boxes{
+  position: absolute;
+  background-color: #f3f3f3;
+  border: 1px solid red;
+  width: 80vw;
+  top:90%;
+  left: 10%;
+}
+.card{
+  background-color: transparent;
+}
