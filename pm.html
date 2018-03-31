@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="style-2.css">
+    <!-- <link rel="stylesheet" href="style-2.css"> -->
     <link rel="stylesheet" href="pm.css">
 
     <title>Project Management, Monitoring, Evaluation</title>
@@ -16,36 +16,37 @@
   <body>
 
       <!-- Just an image -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand ml-5" href="#">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a class="navbar-brand ml-5" href="index.html">
             <img src="assets/images/eurosis_logo_cfg_color.png" width="100%" class="d-inline-block align-top" alt="">
           </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Areas of intervention
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="governance.html">Governance</a>
+                  <a class="dropdown-item" href="hrm.html">HR Management</a>
+                  <a class="dropdown-item" href="pm.html">PM, Monitoring, Evaluation</a>
+                  <a class="dropdown-item" href="fm.html">Financial Management</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown">
-          <ul class="navbar-nav mr-5 ">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      </header>
 
       <div class="header col-md-12 mb-5 d-flex flex-row justify-content-around align-items-center">
         <div class="container">
@@ -63,7 +64,8 @@
     <section class="section-about pt-5 pb-5 d-flex flex-row justify-content-center align-items-center">
       <div class="container-fluid">
         <div class="row">
-          <div class="text-block col-xs-12 col-sm-12 col-md-6 offset-md-1">
+          <div class="col-md-1"></div>
+          <div class="text-block col-xs-12 col-sm-12 col-md-5">
             <h3 class="head">PM, Monitoring and Evaluation</h3>
             <!-- <h5 class="subhead pt-2">In the Area of Project Management, M&E, our interventions have allowed the Organizations to: -->
           <!-- </h5> -->
@@ -83,9 +85,10 @@
             </p>
         </div>
         <!-- <div class="col-md-2"></div> -->
-        <div class="img-block col-xs-12 col-sm-12 col-md-4 ml-auto mr-auto">
-          <img src="./assets/images/home-bg.png" class="img-fluid" alt="" width="100%">
+        <div class="img-block col-xs-12 col-sm-12 col-md-5 ml-auto mr-auto">
+          <img src="./assets/images/pm-1.png" class="img-fluid" alt="" width="100%">
         </div>
+        <div class="col-md-1"></div>
       </div>
       </div>
     </section>
@@ -100,7 +103,8 @@
       </div>
       <div class="text-block col-md-12 d-flex flex-row justify-content-center align-items-center flex-md-wrap">
       <div class="row">
-        <div class="text-block col-md-6 offset-md-1">
+        <div class="col-md-1"></div>
+        <div class="text-block col-md-5">
           <p class="text">
             <h5 class="subhead">Before</h5>
             <ul>
@@ -109,19 +113,21 @@
               </li>
             </ul>
           </p>
+          <p class="text">
+            <h5 class="subhead">After</h5>
+            <ul>
+              <li class="text-item">Newly developed M&E guideline providing principles, procedures and templates to be adhered to throughout the Project Management Cycle
+              </li>
+              <li class="text-item"> Completely revised and updated M&E Plan for a Specific Project
+              </li>
+            </ul>
+          </p>
         </div>
 
-      <div class="text-block col-md-5">
-        <p class="text">
-          <h5 class="subhead">After</h5>
-          <ul>
-            <li class="text-item">Newly developed M&E guideline providing principles, procedures and templates to be adhered to throughout the Project Management Cycle
-            </li>
-            <li class="text-item"> Completely revised and updated M&E Plan for a Specific Project
-            </li>
-          </ul>
-        </p>
+        <div class="img-block col-xs-12 col-sm-12 col-md-5 ml-auto mr-auto">
+          <img src="./assets/images/pm-2.png" class="img-fluid" alt="" width="100%">
         </div>
+        <div class="col-md-1"></div>
       </div>
       </div>
     </div>
@@ -138,8 +144,9 @@
 
       <div class="text-block col-md-12 d-flex flex-row justify-content-center align-items-center flex-md-wrap">
       <div class="row">
-        <div class="small-img-block col-sm-12 col-md-6">
-          <img src="./assets/images/prm-1.png" class="img-fluid" alt="" width="100%">
+        <div class="small-img-block col-sm-12 col-md-6 mx-auto">
+          <img src="./assets/images/pm-3.png" class="img-fluid" alt="" width="100%">
+          <img src="./assets/images/pm-4.png" class="img-fluid" alt="" width="100%">
         </div>
         <div class="text-block col-md-6">
           <div class="row">
@@ -182,7 +189,8 @@
       </div>
       <div class="text-block col-md-12 d-flex flex-row justify-content-center align-items-center flex-md-wrap">
       <div class="row">
-        <div class="text-block col-md-6 offset-md-1">
+        <div class="col-md-1"></div>
+        <div class="text-block col-md-5">
           <p class="text">
             <h5 class="subhead">Before</h5>
             <ul>
@@ -209,11 +217,12 @@
           </ul>
         </p>
         </div>
+        <div class="col-md-1"></div>
       </div>
       </div>
       <div class="row">
         <div class="col-md-10"></div>
-        <a href="#" class="float-right">
+        <a href="pm-2.html" class="float-right">
           <button type="button" class="teal-button pt-1 pl-2 pr-2 pb-1" name="button">Read More ></button>
         </a>
       </div>
@@ -229,7 +238,8 @@
       </div>
       <div class="text-block col-md-12 d-flex flex-row justify-content-center align-items-center flex-md-wrap">
       <div class="row">
-        <div class="text-block col-md-6 offset-md-1">
+        <div class="col-md-1"></div>
+        <div class="text-block col-md-5">
           <p class="text">
             <h5 class="subhead">Before</h5>
             <ul>
@@ -261,11 +271,12 @@
           </ul>
         </p>
         </div>
+        <div class="col-md-1"></div>
       </div>
       </div>
       <div class="row">
         <div class="col-md-10"></div>
-        <a href="#" class="float-right">
+        <a href="pm-3.html" class="float-right">
           <button type="button" class="teal-button pt-1 pl-2 pr-2 pb-1" name="button">Read More ></button>
         </a>
       </div>
@@ -273,17 +284,10 @@
     </div>
 
 
-
-
-
-    <div class="footer pt-3 pb-3 col-md-12">
-      <div class="text-block d-flex flex-row justify-content-flex-start align-items-center flex-md-wrap">
-        <div class="row">
-          <h3 class="footer-text col-md-12 offset-md-5 text-center">Copyright © 2018 Eurosis. All rights reserved.</h3>
-        </div>
-          <h3 class="footer-text col-md-4 offset-md-5 text-center">Go to <a href="">Home</a></h3>
-        </div>
-  </div>
+    <footer class="container py-3">
+      <p class="float-right"><a href="#">Go to Home</a></p>
+      <p>Copyright &copy; 2018 EUROSIS, All Rights Reserved</p>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

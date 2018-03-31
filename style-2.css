@@ -10,9 +10,27 @@
   position: relative;
 }
 
+body{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 nav{
   z-index: 1;
-  height: 15vh;
+  /* height: 15vh; */
+}
+/* .navbar-dark .navbar-nav .active>.nav-link {
+  color: #000;
+} */
+
+.carousel-item{
+  height: 100vh;
+}
+.carousel-item > img{
+  height: 100vh;
+}
+.carousel-caption{
+  bottom: 15rem;
 }
 
 .home-head{
@@ -42,18 +60,175 @@ nav{
 
 }
 
+
+
+.boxes{
+  position: absolute;
+  /* background-color: #f3f3f3; */
+  /* border: 1px solid red; */
+  width: 100%;
+  top:80%;
+  /* left: 0%; */
+  margin: 0 auto;
+}
+.card{
+  background-color: transparent;
+}
+
+.box{
+  /* margin: 0 16px; */
+  /* border: 1px solid red; */
+  /* background-color: #fafafa; */
+  height: 200px;
+  /* width: 250px; */
+  position: relative;
+}
+
+.box1{
+  background-color: #3B52B7;
+  /* min-width: 275px; */
+}
+.box2{
+  /* min-width: 275px; */
+  background-color: #FBC100;
+}
+.box3{
+  background-color: #03B5AA;
+  /* min-width: 275px; */
+
+}
+.box4{
+  background-color: #29BF12;
+  /* min-width: 275px; */
+}
+
+.icon-block{
+  position: absolute;
+  bottom:0%;
+  z-index: 0;
+}
+
+.content{
+
+  /* border: 1px solid red; */
+}
+
+.box-head{
+  font-family: 'Raleway',sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+
+/*
+.box-button{
+  position: absolute;
+  bottom: 5px;
+  z-index: 1;
+} */
+
+.purple-button{
+  background-color: #fff;
+  box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
+  border: none;
+  color: #3B52B7;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  bottom:10%;
+  left:10%;
+}
+.yellow-button{
+  background-color: #fff;
+  box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
+  border: none;
+  color: #FBC100;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  bottom:10%;
+  left:10%;
+}
+.teal-button{
+  background-color: #fff;
+  box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
+  border: none;
+  color: #03B5AA;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  bottom:10%;
+  left:10%;
+}
+.green-button{
+  background-color: #fff;
+  box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
+  border: none;
+  color: #29BF12;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  bottom:10%;
+  left:10%;
+}
+
+
 .about-project{
   height: 100vh;
 }
 
-.boxes{
-  position: absolute;
-  background-color: #f3f3f3;
-  border: 1px solid red;
-  width: 80vw;
-  top:90%;
-  left: 10%;
+.about-eurosis{
+  height: 100%;
+  background-color: rgba(49,51,52,0.05);
 }
-.card{
-  background-color: transparent;
+
+.blue-ribbon{
+    background-color: rgba(59,82,183,0.75);
+    height: 25px;
+}
+.small-blue-ribbon{
+    background-color: rgba(59,82,183,0.75);
+    height: 4px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.partners{
+  height: 100%;
+  background-color: rgba(49,51,52,0.05);
+}
+
+.text-name{
+  margin: 0 auto;
+}
+
+.testimonials{
+  height: 100%;
+}
+
+@media (max-width:780px) and (max-width:960px) {
+  .about-project{
+    margin-top: 100px;
+    height: 100vh;
+  }
+}
+
+
+@media (max-width:760px) {
+  .about-project{
+    margin-top: 1000px;
+    height: 100vh;
+  }
+}
+
+
+.big-img{
+  /* border: 1px solid red; */
 }

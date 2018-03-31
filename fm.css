@@ -32,7 +32,7 @@ nav{
 
 .header{
   background-color: rgba(41,191,18,0.75);
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 .header-head{
@@ -104,6 +104,7 @@ nav{
   height: 100%;
   width: 100%;
   background-color: rgba(41,191,18,0.75);
+  color: #fff;
   /* padding: 20px 0; */
 }
 
