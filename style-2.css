@@ -13,11 +13,22 @@
 body{
   padding-top: 0;
   padding-bottom: 0;
+  font-family: 'Raleway',sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #313334;
 }
+
 
 nav{
   z-index: 1;
   /* height: 15vh; */
+}
+
+.nav-width{
+  max-width: 70em;
+  /* border: 1px solid red; */
 }
 /* .navbar-dark .navbar-nav .active>.nav-link {
   color: #000;
@@ -36,18 +47,20 @@ nav{
 .home-head{
   font-family: 'Raleway',sans-serif;
   font-size: 56px;
-  line-height: 80px;
+  line-height: 84px;
   font-weight: 900;
   color: #fff;
 }
 
-.home-subtext{
+.home-subhead{
   font-family: 'Raleway',sans-serif;
-  font-size: 40px;
-  line-height: 56px;
-  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
   color: #fff;
 }
+
+
 .bg-home{
   background-image: url('./assets/images/home-bg.png');
   background-attachment: fixed;
@@ -60,6 +73,44 @@ nav{
 
 }
 
+.section-head{
+  font-family: 'Raleway',sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #313334;
+  /* border: 1px solid red; */
+}
+
+.subtext{
+  font-family: 'Raleway',sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #313334;
+}
+
+.text{
+  font-family: 'Raleway',sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #313334;
+}
+.imp-text{
+  font-family: 'Playfair Display',sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #313334;
+}
+.footer-text{
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #313334;
+}
 
 
 .boxes{
@@ -102,7 +153,7 @@ nav{
   /* min-width: 275px; */
 }
 
-.icon-block{
+.card-icon-block{
   position: absolute;
   bottom:0%;
   z-index: 0;
@@ -130,7 +181,7 @@ nav{
   z-index: 1;
 } */
 
-.purple-button{
+.card-purple-button{
   background-color: #fff;
   box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
   border: none;
@@ -142,7 +193,7 @@ nav{
   bottom:10%;
   left:10%;
 }
-.yellow-button{
+.card-yellow-button{
   background-color: #fff;
   box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
   border: none;
@@ -154,7 +205,7 @@ nav{
   bottom:10%;
   left:10%;
 }
-.teal-button{
+.card-teal-button{
   background-color: #fff;
   box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
   border: none;
@@ -166,7 +217,7 @@ nav{
   bottom:10%;
   left:10%;
 }
-.green-button{
+.card-green-button{
   background-color: #fff;
   box-shadow: 8px 4px 8px 0px rgba(0,0,0,0.15);
   border: none;
@@ -181,7 +232,7 @@ nav{
 
 
 .about-project{
-  height: 100vh;
+  height: 100%;
 }
 
 .about-eurosis{
@@ -223,7 +274,7 @@ nav{
 
 @media (max-width:760px) {
   .about-project{
-    margin-top: 1000px;
+    margin-top: 900px;
     height: 100vh;
   }
 }
